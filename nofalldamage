@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MOD STATUS</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Comfortaa:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="nofalldamage.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="fonts.css">
+  <style>
+    /* ...dein CSS hier... */
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <div class="logo">
+        <div class="mark"></div>
+        <div>
+          <h1>MOD STATUS</h1>
+          <p class="lead"></p>
+        </div>
+      </div>
+      <nav>
+        <a href="index.html" class="btn">Startseite</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h2>No Fall Damage</h2>
+        <p class="summary">Die NoFall Damage Mod für Minecraft macht jeden Sturz zur ultimativen Herausforderung. Sobald du Fallschaden erleidest, ist das Spiel sofort vorbei – du bist raus! Diese Mod eignet sich perfekt für Hardcore-Spieler, die ihre Bewegungen präzise kontrollieren wollen. Um die Challenge neu zu starten, kannst du ganz einfach den Befehl :restart im Chat eingeben. Sie ist ideal für spannende Speedrun-Sessions oder als Wettkampf mit Freunden.</p>
+
+        <div class="cards" aria-label="Highlights">
+        <a href="https://cdn.discordapp.com/attachments/1170735149126791259/1404942490972459069/Flutscha1.jar?ex=689d0628&is=689bb4a8&hm=73c99a285d6b8bc8e0a9b2cc2c741d52fea897d24ebae351dd3197ef78d0adc9&" class="btn ghost">1.21.4 Download</a>
+          </article>
+        </div>
+      </section>
+
+      <aside>
+        <div class="profile">
+          <div class="avatar"></div>
+          <div class="meta">
+            <strong></strong>
+            <div><small></small></div>
+          </div>
+        </div>
+
+        <div>
+          <strong></strong>
+          <div class="progress" aria-hidden="true"><i></i></div>
+          <p style="margin-top:10px;font-size:13px;color:rgba(16,42,67,0.7)"></p>
+        </div>
+
+        <footer>
+          © <span id="year"></span> Managed by <a href="https://github.com/dynamq/dynamq">DynamoGHG</a>, coded by <a href="https://github.com/FlutschaGHG/FlutschaGHG">FlutschaGHG</a>
+        </footer>
+      </aside>
+    </main>
+  </div>
+
+  <script>
+    // kleines Script für Jahr
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
