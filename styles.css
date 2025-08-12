@@ -1,0 +1,84 @@
+body {
+    background: url('https://media.discordapp.net/attachments/1170735149126791259/1404920488681279508/erstell_mir_ein_high_resulution_bild_von_einer_futuristic_city_so_ein_blau_lila_schema_bitte.jpg?ex=689cf1aa&is=689ba02a&hm=3ca91e11fe0a726db65747a20783f978f8f7fa9b5c02f0fb826854bfcef6a4aa&=&format=webp&width=1522&height=856') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+/* Glass Morphism Container */
+.shell {
+  background: rgba(33, 46, 82, 0.13);
+  border-radius: 32px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.22);
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  border: 1.5px solid rgba(255, 255, 255, 0.14);
+  padding: 42px 36px;
+  max-width: 900px;
+  width: 95vw;
+  margin: 40px auto;
+  color: #fff;
+}
+
+/* Buttons */
+nav .btn,
+.actions .btn {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 10px 22px;
+  border-radius: 24px;
+  border: none;
+  background: rgba(33, 46, 82, 0.14); /* sehr transparent dunkelblau */
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(31, 38, 135, 0.10);
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  font-weight: 600;
+  margin-right: 8px;
+  outline: none;
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255,255,255,0.12);
+}
+nav .btn.ghost,
+.actions .btn.ghost {
+  background: transparent;
+  color: #8bb3ff;
+  border: 1px solid #8bb3ff77;
+}
+nav .btn:hover,
+.actions .btn:hover {
+  background: rgba(255,255,255,0.18);
+  color: #8bb3ff;
+}
+
+/* Cards */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Immer 2 Spalten */
+  gap: 22px;
+  margin-top: 28px;
+}
+
+.card {
+  background: rgba(33,46,82,0.13);
+  border-radius: 18px;
+  box-shadow: 0 2px 16px rgba(31,38,135,0.09);
+  backdrop-filter: blur(18px) saturate(120%);
+  -webkit-backdrop-filter: blur(18px) saturate(120%);
+  border: 1px solid rgba(255,255,255,0.11);
+  padding: 22px 18px;
+  transition: box-shadow 0.2s, transform 0.2s;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+
+.card:hover {
+  box-shadow: 0 6px 24px rgba(31,38,135,0.18);
+  transform: translateY(-4px) scale(1.03);
+}
+
+/* Sidebar
