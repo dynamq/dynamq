@@ -1,0 +1,8 @@
+a {
+  color: inherit;        /* übernimmt die Farbe des Eltern-Elements */
+  text-decoration: none; /* entfernt die Unterstreichung */
+}
+a {
+  color: #222;         /* z.B. dunkelgrau */
+  text-decoration: none;
+}
