@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MOD STATUS</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Comfortaa:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* ...dein CSS hier... */
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <div class="logo">
+        <div class="mark"></div>
+        <div>
+          <h1>MOD STATUS</h1>
+          <p class="lead"></p>
+        </div>
+      </div>
+      <nav>
+        <a href="login.html" class="btn">Anmelden</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h2></h2>
+        <p class="summary"></p>
+
+        <div class="actions">
+          <a href="index.html" class="btn">Seite 1</a>
+          <button class="btn">Seite 2</button>
+        </div>
+
+        <div class="cards" aria-label="Highlights">
+          <article class="card">
+            <a href="index2.html" class="card">In Produktion</a>
+            <p>.</p>
+          </article>
+
+          <article class="card">
+            <a href="index2.html" class="card">In Produktion</a>
+            <p>.</p>
+          </article>
+
+          <article class="card">
+            <a href="index2.html" class="card">In Produktion</a>
+            <p>.</p>
+          </article>
+
+          <article class="card">
+            <a href="index2.html" class="card">In Produktion</a>
+            <p>.</p>
+          </article>
+        </div>
+      </section>
+
+      <aside>
+        <div class="profile">
+          <div class="avatar"></div>
+          <div class="meta">
+            <strong></strong>
+            <div><small></small></div>
+          </div>
+        </div>
+
+        <div>
+          <strong></strong>
+          <div class="progress" aria-hidden="true"><i></i></div>
+          <p style="margin-top:10px;font-size:13px;color:rgba(16,42,67,0.7)"></p>
+        </div>
+
+        <footer>
+          © <span id="year"></span> Managed by <a href="https://github.com/dynamq/dynamq">DynamoGHG</a>, coded by <a href="https://github.com/FlutschaGHG/FlutschaGHG">FlutschaGHG</a>
+        </footer>
+      </aside>
+    </main>
+  </div>
+
+  <script>
+    // kleines Script für Jahr
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
